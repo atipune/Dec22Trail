@@ -6,6 +6,8 @@ public class Demo {
 	public static void main(String[] args) {
 		 ArrayList<Integer> al= new ArrayList<Integer>();
 	      al.add(1);
+	      
+	      
 	      al.add(22);
 	      al.add(54);
 	      al.add(52);

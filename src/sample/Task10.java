@@ -15,7 +15,7 @@ public class Task10 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.findElement(By.xpath("//input[@class='gLFyf']")).sendKeys("Books");
 		driver.findElement(By.xpath("(//input[@class='gNO89b'])[2]")).click();
-		driver.findElement(By.xpath("//div[@class='MUFPAc']/div[3]")).click();
+		driver.findElement(By.xpath("//div[@class='MUFPAc']/div[3]")).click();;
 		String text = driver.findElement(By.xpath("//div[@class='v7W49e']/div[3]//h3")).getText();
 		System.out.println(text);
 	}
