@@ -7,12 +7,12 @@ public class Demo {
 		 ArrayList<Integer> al= new ArrayList<Integer>();
 	      al.add(1);
 	      
-	      
+	      //my change
 	      al.add(22);
 	      al.add(54);
 	      al.add(52);
 	      al.add(46);
-	      al.add(45);
+	      al.add(45) ;
 	      al.add(87);
 	      al.add(12);
 	      al.add(54);
